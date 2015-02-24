@@ -1,0 +1,27 @@
+{
+  "name": "Tenon-SPA-Testing",
+  "version": "0.0.0",
+  "description": "An example of 508 testing an angular application with Tenon.",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/constellates/Tenon-SPA-Testing.git"
+  },
+  "author": "constellates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/constellates/Tenon-SPA-Testing/issues"
+  },
+  "homepage": "https://github.com/constellates/Tenon-SPA-Testing",
+  "dependencies": {
+    "express": "^4.12.0",
+    "grunt": "^0.4.5",
+    "grunt-express-server": "^0.4.19",
+    "grunt-protractor-runner": "^1.2.1",
+    "grunt-tenon-client": "^0.6.1",
+    "protractor": "^1.7.0"
+  }
+}

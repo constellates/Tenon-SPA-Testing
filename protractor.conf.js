@@ -1,0 +1,27 @@
+// An example configuration file.
+exports.config = {
+  // Do not start a Selenium Standalone sever - only run this using chrome.
+  chromeDirect: true,
+  chromeDriver: './node_modules/protractor/selenium/chromedriver',
+
+  // Capabilities to be passed to the webdriver instance.
+  capabilities: {
+    'browserName': 'chrome'
+  },
+
+  // prepare environment
+  onPrepare: function () {
+  },
+
+  // Spec patterns are relative to the current working directly when
+  // protractor is called.
+  specs: ['DOM-ploopper.js'],
+
+  baseUrl: 'http://localhost:3000/',
+
+  // Options to be passed to Jasmine-node.
+  jasmineNodeOpts: {
+    showColors: true,
+    defaultTimeoutInterval: 30000
+  }
+};
